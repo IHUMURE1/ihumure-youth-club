@@ -1,0 +1,358 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background: rgb(19, 4, 54);
+}
+
+/* NAVBAR */
+
+header{
+  position:fixed;
+  width:100%;
+  top:0;
+  left:0;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  padding:20px 80px;
+
+  background:#042d33;
+  border-bottom:2px solid rgb(74, 0, 88);
+
+  z-index:1000;
+}
+
+.logo h1{
+  color:white;
+  font-size:45px;
+  font-weight:900;
+  line-height:40px;
+}
+
+.logo span{
+  color:rgb(58, 53, 25);
+  font-size:18px;
+  font-weight:bold;
+  letter-spacing:3px;
+}
+
+nav{
+  display:flex;
+  gap:50px;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  font-weight:600;
+  letter-spacing:2px;
+  transition:0.3s;
+}
+
+nav a:hover{
+  color:rgb(99, 91, 50);
+}
+
+.book-btn{
+  padding:15px 35px;
+  border:2px solid gold;
+  background:transparent;
+  color:gold;
+
+  border-radius:40px;
+  cursor:pointer;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+.book-btn:hover{
+  background:gold;
+  color:black;
+}
+
+/* HERO SECTION */
+
+.hero{
+  height:100vh;
+
+  background:url('ihumure.jfif') center/cover no-repeat;
+
+  position:relative;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.overlay{
+  position:absolute;
+  inset:0;
+  background:rgba(5, 119, 100, 0.6);
+}
+
+.hero-content{
+  position:relative;
+  text-align:center;
+  color:white;
+  z-index:2;
+}
+
+.hero-content h2{
+  font-size:110px;
+  font-weight:900;
+  margin-bottom:20px;
+}
+
+.hero-content p{
+  font-size:24px;
+  margin-bottom:40px;
+  color:#ddd;
+}
+
+.hero-content button{
+  padding:20px 50px;
+  border:none;
+  background:gold;
+  color:black;
+
+  font-weight:bold;
+  font-size:18px;
+
+  cursor:pointer;
+  border-radius:5px;
+
+  transition:0.3s;
+}
+
+.hero-content button:hover{
+  transform:scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+body{
+  background:#050505;
+  color:white;
+}
+
+/* SECTION TITLE */
+
+.rooms-section,
+.relax-section{
+  padding:60px 5%;
+  text-align:center;
+}
+
+.rooms-section h1,
+.relax-section h1{
+  font-size:38px;
+  margin-bottom:10px;
+}
+
+.rooms-section p,
+.relax-section p{
+  color:#999;
+  margin-bottom:40px;
+}
+
+/* ROOM CARDS */
+
+.room-container{
+  display:flex;
+  gap:25px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.room-card{
+  background:#0d0d0d;
+  width:320px;
+  border-radius:10px;
+  overflow:hidden;
+  border:1px solid #222;
+  transition:0.3s;
+}
+
+.room-card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 0 20px rgba(255,215,0,0.3);
+}
+
+.room-card img{
+  width:100%;
+  height:220px;
+  object-fit:cover;
+}
+
+.room-info{
+  padding:20px;
+  text-align:left;
+}
+
+.room-info h3{
+  margin-bottom:10px;
+}
+
+.room-info h2{
+  color:gold;
+  margin-bottom:15px;
+}
+
+.room-info ul{
+  list-style:none;
+  margin-bottom:20px;
+}
+
+.room-info ul li{
+  margin-bottom:8px;
+  color:#ccc;
+}
+
+.room-info button{
+  width:100%;
+  padding:12px;
+  border:none;
+  background:gold;
+  color:black;
+  font-weight:bold;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.room-info button:hover{
+  background:white;
+}
+
+/* SPA BANNER */
+
+.spa-banner{
+  position:relative;
+  width:100%;
+  max-width:1200px;
+  margin:auto;
+  overflow:hidden;
+  border-radius:10px;
+}
+
+.spa-banner img{
+  width:100%;
+  height:400px;
+  object-fit:cover;
+}
+
+.overlay{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  padding:40px;
+  background:linear-gradient(
+    transparent,
+    rgba(0,0,0,0.9)
+  );
+  text-align:left;
+}
+
+.overlay h2{
+  font-size:32px;
+}
+
+/* FOOTER */
+
+footer{
+  background:#000;
+  padding:60px 5%;
+  border-top:1px solid #222;
+}
+
+.footer-container{
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:40px;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact{
+  flex:1;
+  min-width:250px;
+}
+
+.footer-about h2{
+  color:gold;
+  margin-bottom:20px;
+}
+
+.footer-links h3,
+.footer-contact h3{
+  margin-bottom:20px;
+  color:gold;
+}
+
+.footer-links ul,
+.footer-contact ul{
+  list-style:none;
+}
+
+.footer-links li,
+.footer-contact li{
+  margin-bottom:10px;
+  color:#bbb;
+}
+
+.footer-contact button{
+  margin-top:20px;
+  padding:12px 20px;
+  border:none;
+  background:gold;
+  color:black;
+  font-weight:bold;
+  cursor:pointer;
+}
